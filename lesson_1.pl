@@ -16,3 +16,8 @@ animal(cat).
 
 животное(собака).
 животное(кошка).
+
+% variables in Prolog always write with a capital letter. 
+% Example: animal(X). Don't write animal(x), it's a mistake.
+% If you type in swipl terminal animal(X), system writes dog, as first variant. 
+% If you type ; system shows next variant cat, if you type . system wil be stoped.
